@@ -76,4 +76,15 @@ public class Frete {
 
     }
 
+    @Override
+    public String toString() {
+        return "Frete{" +
+                "id=" + id +
+                ", cliente=" + cliente +
+                ", cidade=" + cidade +
+                ", descricao='" + descricao + '\'' +
+                ", peso=" + peso +
+                ", valor=" + valor +
+                '}';
+    }
 }
