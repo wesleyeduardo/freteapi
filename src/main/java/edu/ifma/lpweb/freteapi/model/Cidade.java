@@ -49,4 +49,13 @@ public class Cidade {
         this.taxa = taxa;
     }
 
+    @Override
+    public String toString() {
+        return "Cidade{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", uf='" + uf + '\'' +
+                ", taxa=" + taxa +
+                '}';
+    }
 }
